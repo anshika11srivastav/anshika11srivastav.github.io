@@ -60,7 +60,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-content: center;
-    gap: 45px;
+    gap: 20px;
   }
   #skills>div>div{
     padding: 15px 0px;
@@ -375,8 +375,11 @@ section {
 .contact{
   justify-content: center;
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 300;
+  background-color: antiquewhite;
+
+ 
 }
 
 .footer {
@@ -386,6 +389,7 @@ section {
   text-align: center;
   color: #666;
   background: #fff;
+  
 }
 
 .footer span {
@@ -398,7 +402,10 @@ section {
 .skill-container {
   text-align: center;
 }
-
+#contact{
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
 
 /* media queries  */
@@ -525,6 +532,7 @@ section {
     box-shadow: 0 0 10px white;
     font-family: monospace;
 }
+
 #linked{
     color: rgb(1, 43, 59);
     font-weight: bold;
