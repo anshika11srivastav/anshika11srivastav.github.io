@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anshika's Portfolio</title>
+     <title>Anshika's Portfolio</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
    
    
@@ -16,38 +18,26 @@
   <body>
    
     <!-- header section starts  -->
-
-    <header>
-      <nav>
-      <!-- NAVBAR -->
-    <div class="navbar">
-        <ul class="mainmenu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills ">Skills</a></li>
-            <li><a href="#portfolio">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a id="resu" href="fp07_306-Anshika-Srivastava-Resume.pdf"  download="fp07_306-Anshika-Srivastava-Resume.pdf">Resume</a></li>
-           
-        </ul>
-    </div>
+    <nav>
+      <input type="checkbox" class="myCheckBox" id="myCheck">
+      <label for="myCheck" class="checkButton">
+          <i class="fa fa-bars"></i>
+      </label>
+      <label class="logo">𝒜𝒮</label>
+      <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Project</a></li>
+          <li><a href="#contacts">Contact</a></li>
+          <li><a id="resu" href="fp07_306-Anshika-Srivastava-Resume.pdf"  download="fp07_306-Anshika-Srivastava-Resume.pdf">Resume</a></li>
+      </ul>
+  </nav>
+     
    
-</nav>
-      <div class="follow">
-        <a
-          href="https://github.com/anshika11srivastav"
-          target="blank"
-          class="fab fa-github"
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/anshika-srivastava-107636223/"
-          class="fab fa-linkedin"
-          target="blank"
-          class="fab fa-linked"
-        ></a>
-      
-      </div>
-    </header>
+
+
+     
     <!-- header section ends -->
 
     <!-- home section starts  -->
@@ -80,13 +70,17 @@
         <div class="content">
           <!-- <h3>my name is anshika & <br> i am a tech support</h3> -->
           <p id="lowercase">
+            Experienced in building and troubleshooting
+            computer systems, networking, and providing technical support.
+            Have a strong work ethic and the ability to quickly learn and apply
+            new technologies and troubleshoot hardware and software issues.
             Changing the background of a non-technical subject would involve 
             replacing the background image with a more technical one. For example, 
             a background image of a beach could be replaced with a diagram of a computer system 
             or a piece of computer hardware.
           </p>
           <div class="box-container"></div>
-          <a onclick="resumeDownload()" href="fp07_306-Anshika-Srivastava-Resume.pdf" class="btn"  target="_blank"
+          <a id="resu" href="fp07_306-Anshika-Srivastava-Resume.pdf" download="fp07_306-Anshika-Srivastava-Resume.pdf" class="btn"  target="_blank"
             >Download Resume</a
           >
         </div>
@@ -125,11 +119,11 @@
           </div>
           
         </div>
-          <section id="skills">
-            <h1>Soft Skills</h1>
+          <section style="height: 900px;" id="skills">
+            <h1>Soft Skills🤗</h1>
             <div id="softdiv">
                 <div>
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.YZMsQo2bHZ7bRn3MKO_eGwHaFF&pid=Api&P=0" alt="">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.XUN4_MB3-Oul79wsESqQFwHaHa&pid=Api&P=0" alt="">
                     <h2>Communication</h2>
                 </div>
                 <div>
@@ -148,7 +142,7 @@
                 
             </div>
             <section id="skills">
-              <h1> Customer Service Skills</h1>
+              <h1> Customer Service Skills👥</h1>
               <div>
                   <div>
                       <img src="https://tse3.mm.bing.net/th?id=OIP.W-fzMmfEZ-BQoI1aZirHAgHaHa&pid=Api&P=0" alt="">
@@ -172,7 +166,7 @@
                   
               </div>
               <section id="skills">
-                <h1>Tools</h1>
+                <h1>Tools⚒️</h1>
                 <div>
                     <div>
                         <img src="https://tse1.explicit.bing.net/th?id=OIP.adeqa7j9sEDYE3-KVdZiRQHaHx&pid=Api&P=0" alt="">
@@ -211,7 +205,7 @@
       <div class="box-container">
         <div class="box">
           
-          <img src="https://i.ibb.co/wBq38wk/Screenshot-38.png" alt="" />
+          <img style="width: 100%;" src="https://i.ibb.co/wBq38wk/Screenshot-38.png" alt="" />
           <a style="color: white; font-size: 20px; background-color: black; font-weight: bold;"
           href="https://github.com/anshika11srivastav/cynical-needle-4571.git"
           target="_blank"
@@ -225,7 +219,7 @@
           <i></i>&#91;Netlify&#93;</a
         >
           
-          <h4 style="font-size: 15px">Online Fashion stuff application</h4>
+          <h4 style="font-size: 15px">Anthropologie Clone</h4>
           <div class="icons">
            
            
@@ -236,12 +230,17 @@
             Provides work for an Online fashion household stuff website. This
             project use to make a designer website for living,fashion stuff purpose.
             <br />
+            <h4 style="font-size: 15px">Features</h4>  
+<p class="project-desc" id="lowercase">
+  ~ Login & Signup<br>
+   ~ Different Category webpages<br>
+  ~ Social media handles</p>    
             <b style="color:#808000; font-size: 20px; font-family: cursive;" >Tech Stacks :-</b><b style="font-size: 20px; color:#470909">HTML,CSS,JavaScript</b>
           </p>
         </div>
 
         <div class="box">
-          <img src="https://i.ibb.co/DfDWwhP/Screenshot-36.png" alt="" />
+          <img style="width: 100%;" src="https://i.ibb.co/DfDWwhP/Screenshot-36.png" alt="" />
           <a style="color: white; font-size: 20px; background-color: black; font-weight: bold;"
           href="https://github.com/anshika11srivastav/gitpresentation"
           target="_blank"
@@ -262,13 +261,20 @@
           <p class="project-desc" id="lowercase">
             GitHub Onboarding is a process used to help new
 users get started with GitHub.<br> It helps users quickly and easily set up their accounts, create repositories, connect to other developers.<br />
-            <b style="color:#808000; font-size: 20px; font-family: cursive;">Tech Stacks :-</b> <b style="font-size: 20px; color:#470909">HTML, CSS, reveal.js</b>
+<h4 style="font-size: 15px">Area of responsiblities</h4>
+<p class="project-desc" id="lowercase">~Written & designed the content<br> ~Engaged the code </p>
+<h4 style="font-size: 15px">Features</h4>  
+<p class="project-desc" id="lowercase">
+  ~ PPT pages for onboarding customers in GitHub<br>
+   ~ Version control and collabration<br>
+  ~ Hosting  & Managing files </p>          
+<b style="color:#808000; font-size: 20px; font-family: cursive;">Tech Stacks :-</b> <b style="font-size: 20px; color:#470909">HTML, CSS, reveal.js</b>
           </p>
         </div>
 
         <div class="box">
           
-          <img src="https://i.ibb.co/fk0X6Xj/Screenshot-37.png" alt="" />
+          <img style="width: 100%;" src="https://i.ibb.co/fk0X6Xj/Screenshot-37.png" alt="" />
           <a style="color: white; font-size: 20px; background-color: black; font-weight: bold;"
           href="https://github.com/anshika11srivastav/BigBasket"
           target="_blank"
@@ -279,6 +285,7 @@ users get started with GitHub.<br> It helps users quickly and easily set up thei
           href="https://spiffy-banoffee-dd4536.netlify.app/"
           target="_blank"
         >
+        
           <i></i>&#91;Netlify&#93;</a
         >
           
@@ -289,54 +296,71 @@ users get started with GitHub.<br> It helps users quickly and easily set up thei
          <p class="project-desc" id="lowercase">Bigbasket is an online grocery delivery service.Help customer to get grocessry in quick time at their doorstep.
           <br>It also provides customer service support to help customers resolve their queries and concerns.
           <br>
+          <h4 style="font-size: 15px">Features</h4>  
+<p class="project-desc" id="lowercase">
+  ~ Login & Signup<br>
+   ~ Different Category webpages<br>
+   ~ Add to Cart functionality<br>
+   ~ Payment page checkout<br>
+  ~ Social media handles</p>  
           <b style="color:#808000; font-size: 20px; font-family: cursive;">Tech Stacks :-</b> <b style="font-size: 20px; color:#470909">HTML, CSS, JavaScript</b>
          </p>
         </div>
     <!-- contact section starts  -->
     
+    <div id="con"></div>
 
-    <section class="contact" id="contact">
-      <h1 class="heading">contact <span> me </span></h1>
-
-      <div class="icons-container">
-        <div class="icons">
-          <i class="fas fa-envelope"></i>
-          <h3>my email</h3>
-          <p id="mail">anshika2001srivastava@gmail.com</p>
+    <div  style="background-color: rgba(58, 81, 87, 0.114); width: 100%; height: 350px; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;" id="contacts">
+        <div style="justify-content: center; " class="heading">
+            <p>Connect with me</p>
         </div>
 
-        <div class="icons">
-          <i class="fas fa-phone"></i>
-          <h3>my number</h3>
-          <p>7007891051</p>
+        <div id="incont">
+
+            <div>
+                
+                <img style="width:35px" src="https://i.pinimg.com/originals/4f/13/40/4f13404aa04805594ae255d9e73df9c8.png">
+                <p style="padding-top: 20px;">+91 7007891051</p>
+            </div>
+
+            <div id="mail">
+
+               <img style="width:35px" src="https://cdn05.zipify.com/fS3XCpGd4RxBO5yGBmg_4vMds94=/fit-in/1030x0/ae7edd115555432d82a1466165c24cc2/email-logo-png-13.png">
+                <a href="mailto:anshika2001srivastava@gmail.com">
+                    <p style="padding-top: 20px;">anshika2001srivastava@gmail.com</p>
+                </a>
+
+            </div>
+
+            <div id="link">
+
+                <img style="width:40px" src="http://www.freepnglogos.com/uploads/linkedin-logo-black-png-image-21.png">
+                <a href="https://www.linkedin.com/in/anshika-srivastava-107636223/" target="_blank">
+                    <p style="padding-top: 20px;">Anshika Srivastava</p>
+                </a>
+
+            </div>
+
+            <div id="git">
+
+                <img style="width:30px; padding-bottom: 35px;" src="https://tse2.mm.bing.net/th?id=OIP.oTWww7f3jYjyeK1NXkoozAAAAA&pid=Api&P=0">
+                <a href="https://github.com/anshika11srivastav" target="_blank">
+                
+                  <p style="padding-top: 20px;">Anshika</p>
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="icons">
-          <i class="fas fa-map-marker-alt"></i>
-          <h3>my address</h3>
-          <p>lucknow,uttar pradesh India </p>
-        </div>
-        <div class="follow">
-            <a
-              href="https://github.com/anshika11srivastav"
-              target="blank"
-              class="fab fa-github"
-            ><img style="height: 40px;" src="https://www.pngarts.com/files/8/Github-Logo-Transparent-Background-PNG.png"><p id="github"></p></a>
-            <a
-              href="https://www.linkedin.com/in/anshika-srivastava-107636223/"
-              class="fab fa-linkedin"
-              target="blank"
-              class="fab fa-linked"
-            ><img style="height: 40px; padding-right: 20px;" src="https://tse2.mm.bing.net/th?id=OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa&pid=Api&P=0"><p id="linked"></p></a>
-          </div>
-          
-      </div>
+    </div>
+
 
      
     <!-- contact section ends -->
 
     <!-- footer section  -->
-    <footer class="footer">
+    <footer style="width: 100%;" class="footer">
       created by <span> Anshika Srivastava</span>
 
     </footer>
