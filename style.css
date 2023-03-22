@@ -5,8 +5,14 @@
 }
 body{
     margin:0px;
-
 }
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+  min-zoom: 0.4;
+  max-zoom: 2;
+  user-zoom: fixed;
+  }
 
 * {
   font-family: "Poppins", sans-serif;
@@ -35,6 +41,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+ 
 }
 
 body {
@@ -45,6 +52,7 @@ body {
 /* soft skills */
 #skills{
     background-color: whitesmoke;
+    
 
   }
   #skills>h1{
@@ -317,7 +325,7 @@ section {
 
 .portfolio .box-container .box {
   flex: 1 1 30rem;
-  height: 70rem;
+  height: 80rem;
   overflow: hidden;
   border: 1rem solid #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
