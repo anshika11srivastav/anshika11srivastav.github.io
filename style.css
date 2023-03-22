@@ -45,6 +45,7 @@ body {
 /* soft skills */
 #skills{
     background-color: whitesmoke;
+
   }
   #skills>h1{
     width: 90%;
@@ -316,7 +317,7 @@ section {
 
 .portfolio .box-container .box {
   flex: 1 1 30rem;
-  height: 60rem;
+  height: 70rem;
   overflow: hidden;
   border: 1rem solid #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -502,7 +503,7 @@ a:hover,a.active{
   text-decoration: underline;
 }
 /* media queries  */
-@media (max-width: 991px) {
+@media (max-width: 1332px) {
   html {
     font-size: 55%;
   }
