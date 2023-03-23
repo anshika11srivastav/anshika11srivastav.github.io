@@ -481,7 +481,9 @@ a:hover,a.active{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 10px;
   font-weight: 400;
-  
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: bold;
 }
 #contacts i{
   /* color: rgb(126, 227, 126); */
