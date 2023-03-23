@@ -80,7 +80,7 @@ body {
 
 section {
   padding: 1rem 5%;
-  min-height: 100vh;
+
 }
 
 .heading {
@@ -431,7 +431,7 @@ nav ul li{
 }
 nav ul{
   float: right;
-  margin-right: 55px;
+ 
  
 }
 
