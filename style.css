@@ -419,17 +419,20 @@ nav{
   position: fixed;
   top: 0;
   z-index: 99;
+
 }
 
 nav ul li{
   display: inline-block;
   line-height: 90px;
   margin: 0 30px;
-
+  padding-bottom: 30px;
+  
 }
 nav ul{
   float: right;
   margin-right: 55px;
+ 
 }
 
 nav ul li a{
