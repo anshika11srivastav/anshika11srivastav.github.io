@@ -31,6 +31,8 @@ body{
     display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-between;
+    margin-top: 20px;
+    
   }
 
 #lowercase {
@@ -52,6 +54,7 @@ body {
 /* soft skills */
 #skills{
     background-color: whitesmoke;
+    margin-top: 50px;
     
 
   }
@@ -110,6 +113,7 @@ section {
 .btn:hover {
   background: #470909;
   letter-spacing: 0.2rem;
+  color: white;
 }
 
 
@@ -400,6 +404,7 @@ section {
 
 .box > img {
   height: 70px;
+  
 }
 .skill-container {
   text-align: center;
@@ -547,6 +552,7 @@ a:hover,a.active{
   #bag{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
   }
 /* Navbar */
 .checkButton{
